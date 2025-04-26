@@ -1,0 +1,243 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #04a1dfb9;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #ffffff;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+.active {
+  background-color: #0430aa;
+}
+
+#signinbody {
+  background: aqua;
+  background-size: cover;
+  color: white;
+}
+
+.signin-user {
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+
+.login-form {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50, -50%);
+  width: 350px;
+}
+
+.login-form h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.login-form p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.login-form input {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-form button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: blue ;
+}
+
+.login-form button:hover {
+  color: #ffffff;
+}
+
+.signup-user {
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+
+#WelcomePage {
+  background: url("spalsh.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+#Signup-body {
+  background-image:url(waving-hi.gif);
+  background-size: cover;
+  color: #424242d0;
+}
+
+.Registration-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+
+.Registration-form h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+
+}
+
+.Registration-form p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.Registration-form input {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Registration-form button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: blue ;
+}
+
+.Registration-form button:hover {
+  color: red;
+}
+
+.Texts h1 {
+  font-size: 5em;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Arial';
+  position:absolute;
+  top: 35%;
+  left: 35%;
+  transform: translatex(17%)translateX(17%);
+
+}
+
+.Texts p {
+  text-align: center;
+  position: relative;
+  bottom: -400px;
+  vertical-align:bottom;
+}
+
+.pricing-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.pricing-table th, .pricing-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.pricing-table th {
+  background-color: #f2f2f2;
+}
+
+.pricing-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pricing-table .price {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#Table {
+  background-color: red;
+}
+
+.dropdown ul {
+  list-style: none;
+  background: #8c52ff;
+}
+
+.dropdown li {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 20px 25px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dropdown li ul.dropdown li {
+  display: block;
+}
+
+.dropdown li ul.dropdown {
+  width: 100%;
+  background: #8c52ff;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+.dropdown li a:hover {
+  background: #6d30e9;
+}
+
+.dropdown li:hover ul.dropdown {
+  display: block;
+}
